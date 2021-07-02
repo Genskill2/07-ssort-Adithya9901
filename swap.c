@@ -1,5 +1,4 @@
-#include<iostream.h>
-#include<cs50.h>
+
 
 void swap_max(int arr[],int l,int pos)
 {
@@ -15,7 +14,8 @@ void swap_max(int arr[],int l,int pos)
      }
  }
  if(max!=arr[pos])
- {int k=arr[pos];
+ {
+  int k=arr[pos];
   arr[pos]=arr[t];
   arr[t]=k;
  }
